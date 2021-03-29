@@ -1,0 +1,255 @@
+body
+{
+    margin: 0;    
+    background: #16171D;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#banner 
+{
+    background: #34A853;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+}
+
+#title-text
+{
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 4px;
+    position: absolute;
+}
+
+/*=========================
+= SEARCH BAR AND WRAPPER
+===========================*/
+#search-wrapper
+{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#searchfname
+{
+    height: 30px;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    background-color: #2C8D46;
+    border: none;
+    outline: none;
+    width: 94%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#searchfname::selection, #searchfname::-moz-selection
+{
+    color: white;
+    background: #0A9C59;
+}
+
+#searchform {width: 100%; display: flex;}
+
+#submitForm 
+{    
+    margin-right: 0;
+    margin-left: auto;
+}
+div#submitForm input:hover {background-color: #256557;}
+div#submitForm input:active {background-color: #255942;}
+
+div#submitForm input
+{
+    background: url("../assets/search.png") scroll 0 0 #2C8D46;
+    background-size:    100% 100%;                      /* <------ */
+    box-sizing: border-box;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    height: 32px;
+    padding: 10px;
+    width: 32px;
+  }
+
+#content
+{
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;
+}
+
+/*CONTROL CARD*/
+
+#control-card-wrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 50%;
+}
+
+#control-card-header
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#control-card
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 4px;
+    display: flex;
+    padding: 16px 20px 10px 20px;
+    background: #0D0E11;
+}
+
+#control-card-main
+{
+    width: 100%;
+    border-left: 1px solid #1D1E26;
+    padding: 2px 10px 2px 20px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+#control-card-form-controls
+{
+    width: 100%;
+    margin-top: 26px;
+}
+/*MAIN CONTROLS*/
+#btn-upload
+{
+    border: none;
+    padding: 6px 10px;
+    border-radius: .2em;
+    background-color: #0A9C59;
+    color: white;
+    transition: 0.3s;
+}
+
+#upload-button-parent
+{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+#btn-upload:hover {background-color: #34A853;}
+#upload-progress {width: 70%;}
+#upload-meter {width: 100%;}
+
+/*
+BROWSE FILE BUTTON
+=========================
+=== FOR CHROME AND IE ===
+=========================
+*/
+::-webkit-file-upload-button
+{
+    border: none;
+    padding: 6px 10px;
+    border-radius: .2em;
+    background-color: #0A9C59;
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+::-webkit-file-upload-button:hover {background-color: #34A853;}
+
+input[type=file]::file-selector-button 
+{
+    border: none;
+    padding: 6px 10px;
+    border-radius: .2em;
+    background-color: #0A9C59;
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=file]::file-selector-button:hover {background-color: #34A853;}
+
+#browse-button-text
+{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.truncated-fname
+{
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#browse-button-wrapper
+{
+    margin-right: auto;
+    margin-left: 0;
+}
+
+#set-backname-wrapper
+{
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+#backupname
+{
+    font-size: 16px;
+    height: 24px;
+    width: 100%;
+    color: white;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #0A9C59;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#backupname::selection, #backup::-moz-selection
+{
+    color: white;
+    background: #0A9C59;
+}
+/*
+===================
+== UPLOAD BUTTON ==
+===================
+*/
+#upload-wrapper
+{
+    width: 100%;
+    display: flex;
+}
+
+
+#hilight {color: #34A853;}
+#hilight-bright{color: #0A9C59;}
+
+#upload-progress
+{
+    margin-top: 12px;
+}
+
+#control-card-section
+{
+    width: 100%;
+    display: flex;
+}
