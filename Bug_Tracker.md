@@ -2,6 +2,10 @@
 
 **Description**:  Listahan ng mga bugs / issues 🐞
 
-ISSUE ID                |DATE                    |STATUS	             |DESCRIPTION
+```
+taynkyu kuya Zane hahaha
+```
+
+ISSUE ID                |DATE                    |STATUS	               |DESCRIPTION
 :-----------------------|:----------------------:|:---------------------:|:------------------------
-01.
+i001.                   |March 20, 2021          |Pending                |Sira yung UI pag niresize.
