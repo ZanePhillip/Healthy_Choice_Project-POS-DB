@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- COLOR VALUES SHOULD BE HEX -->
+<theme>
+		<desc>
+Bespin theme from Atom TextEditor.
+
+-crafted by kuya RR :)
+	</desc>
+	<editor>
+		<background>#2A2623</background>
+		<forecolor>#FFFFFF</forecolor>
+		<caret>#FFFFFF</caret>
+		<fontsize>10</fontsize>
+		<linenumberbg>#2A2623</linenumberbg>
+		<linenumberfg>#7F796B</linenumberfg>
+		<selectionbg>#444444</selectionbg>
+		<selectionfg>#FFFFFF</selectionfg>
+	</editor>
+	<code>
+		<comment>#636766</comment>
+		<commentline>#636766</commentline>
+		<commentdoc>#636766</commentdoc>
+		<number>#D16946</number>
+		<character>#69AD34</character>
+		<string>#69AD34</string>
+		<!-- DDL#32a8ff -->
+		<word>#B59339</word>
+		<!-- DML -->
+		<word2>#9B859C</word2>
+		<!-- FUNCTIONS -->
+		<user1>#CBC162</user1>
+		<!-- KEYWORDS -->
+		<user2>#589991</user2>
+		<!-- SQL OPERATORS -->
+		<user3>#BBA075</user3>
+		<!-- MATH OPERATORS -->
+		<operator>#7388A7</operator>
+		<!-- DATA TYPES -->
+		<types>#7388A7</types>
+	</code>
+	<console>
+		<background>#2a2a2c</background>
+		<foreground>#FFFFFF</foreground>
+		<info>#86AE60</info>
+		<warn>#FED688</warn>
+		<warntext>#FFB63B</warntext>
+		<err>#D65F5E</err>
+		<action>#8687AE</action>
+		<actiontext>#C6E7F9</actiontext>
+	</console>
+</theme>

@@ -1,0 +1,1 @@
+abs avg changes char coalesce count date datetime group_concat last lcase length lower ltrim max min random replace round rtrim strftime substr sum time trim ucase upper

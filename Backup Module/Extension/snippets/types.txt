@@ -1,0 +1,3 @@
+int integer tinyint smallint mediumint bigint unsigned int2 int8
+character varchar varying nchar native nvarchar text clob
+blob real double precision float numeric decimal boolean 

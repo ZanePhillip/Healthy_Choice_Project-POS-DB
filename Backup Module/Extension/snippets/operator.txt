@@ -1,0 +1,1 @@
+﻿and between exists in not like or is null unique

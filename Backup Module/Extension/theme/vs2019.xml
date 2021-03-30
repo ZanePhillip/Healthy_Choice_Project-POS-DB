@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COLOR VALUES SHOULD BE HEX -->
+<theme>
+	<desc>
+Inspired by Visual Studio IDE.
+
+-crafted by kuya RR :)
+	</desc>
+    <editor>
+        <background>#1E1E1E</background>
+        <forecolor>#FFFFFF</forecolor>
+        <caret>#FFFFFF</caret>
+        <fontsize>10</fontsize>
+        <linenumberbg>#1E1E1E</linenumberbg>
+        <linenumberfg>#247DAF</linenumberfg>
+        <selectionbg>#16191F</selectionbg>
+        <selectionfg>#FFFFFF</selectionfg>
+    </editor>
+    <code>
+        <comment>#57A64A</comment>
+        <commentline>#608B4E</commentline>
+        <commentdoc>#608B4E</commentdoc>
+        <number>#B5CEA8</number>
+        <character>#D69D85</character>
+        <string>#DD69D85</string>
+        <!-- DDL#32a8ff -->
+        <word>#34B0B0</word>
+        <!-- DML -->
+        <word2>#3887D6</word2>
+        <!-- FUNCTIONS -->
+        <user1>#DCDC7E</user1>
+        <!-- KEYWORDS -->
+        <user2>#3887D6</user2>
+        <!-- SQL OPERATORS -->
+        <user3>#9CDCFE</user3>
+        <!-- MATH OPERATORS -->
+        <operator>#BEA0AA</operator>
+		<!-- DATA TYPES -->
+		<types>#4B9CD6</types>
+    </code>
+	<console>
+		<background>#2a2a2c</background>
+		<foreground>#FFFFFF</foreground>
+		<info>#86AE60</info>
+		<warn>#FED688</warn>
+		<warntext>#FFB63B</warntext>
+		<err>#D65F5E</err>
+		<action>#8687AE</action>
+	    <actiontext>#C6E7F9</actiontext>
+	</console>
+</theme>

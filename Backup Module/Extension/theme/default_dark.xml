@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COLOR VALUES SHOULD BE HEX -->
+<theme>
+	<desc>
+This is the "default" theme inspired by Monokai from MonoDevelop IDE.
+
+-crafted by kuya RR :)
+	</desc>
+    <editor>
+        <background>#272822</background>
+        <forecolor>#FFFFFF</forecolor>
+        <caret>#FFFFFF</caret>
+        <fontsize>10</fontsize>
+        <linenumberbg>#272822</linenumberbg>
+        <linenumberfg>#BCBCBC</linenumberfg>
+        <selectionbg>#49483E</selectionbg>
+        <selectionfg>#FFFFFF</selectionfg>
+    </editor>
+    <code>
+        <comment>#5E6F5C</comment>
+        <commentline>#8DB38A</commentline>
+        <commentdoc>#8DB38A</commentdoc>
+        <number>#AE81FF</number>
+        <character>#C5CD4C</character>
+        <string>#E6DB73</string>
+        <!-- DDL#32a8ff -->
+        <word>#4AA6FF</word>
+        <!-- DML -->
+        <word2>#2EE2A6</word2>
+        <!-- FUNCTIONS -->
+        <user1>#FF6C52</user1>
+        <!-- KEYWORDS -->
+        <user2>#FD971E</user2>
+        <!-- SQL OPERATORS -->
+        <user3>#F92671</user3>
+        <!-- MATH OPERATORS -->
+        <operator>#FFFFFF</operator>
+		<!-- DATA TYPES -->
+		<types>#7FDF56</types>
+    </code>
+	<console>
+		<background>#2a2a2c</background>
+		<foreground>#FFFFFF</foreground>
+		<info>#86AE60</info>
+		<warn>#FED688</warn>
+		<warntext>#FFB63B</warntext>
+		<err>#D65F5E</err>
+		<action>#8687AE</action>
+	    <actiontext>#C6E7F9</actiontext>
+	</console>
+</theme>

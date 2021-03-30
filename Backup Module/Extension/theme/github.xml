@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- COLOR VALUES SHOULD BE HEX -->
+<theme>
+	<desc>
+"Where the world builds software"
+
+-crafted by kuya RR :)
+	</desc>
+	<editor>
+		<background>#24292E</background>
+		<forecolor>#FFFFFF</forecolor>
+		<caret>#FFFFFF</caret>
+		<fontsize>10</fontsize>
+		<linenumberbg>#24292E</linenumberbg>
+		<linenumberfg>#444D56</linenumberfg>
+		<selectionbg>#284667</selectionbg>
+		<selectionfg>#FFFFFF</selectionfg>
+	</editor>
+	<code>
+		<comment>#537370</comment>
+		<commentline>#537370</commentline>
+		<commentdoc>#537370</commentdoc>
+		<number>#6CB8DF</number>
+		<character>#8EBEC9</character>
+		<string>#8EBEC9</string>
+		<!-- DDL#32a8ff -->
+		<word>#F97583</word>
+		<!-- DML -->
+		<word2>#6CE89D</word2>
+		<!-- FUNCTIONS -->
+		<user1>#B392F0</user1>
+		<!-- KEYWORDS -->
+		<user2>#D5B482</user2>
+		<!-- SQL OPERATORS -->
+		<user3>#FF8000</user3>
+		<!-- MATH OPERATORS -->
+		<operator>#FFFFFF</operator>
+		<!-- DATA TYPES -->
+		<types>#B392F0</types>
+	</code>
+	<console>
+		<background>#2a2a2c</background>
+		<foreground>#FFFFFF</foreground>
+		<info>#86AE60</info>
+		<warn>#FED688</warn>
+		<warntext>#FFB63B</warntext>
+		<err>#D65F5E</err>
+		<action>#8687AE</action>
+		<actiontext>#C6E7F9</actiontext>
+	</console>
+</theme>

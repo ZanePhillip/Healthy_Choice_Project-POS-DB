@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COLOR VALUES SHOULD BE HEX -->
+<theme>
+    <desc>
+JSFiddle is an online community for testing and showcasing user-created and 
+collaborational HTML, CSS and JavaScript code snippets, known as 'fiddles'.
+
+-crafted by kuya RR :)
+	</desc>
+    <editor>
+        <background>#1F2227</background>
+        <forecolor>#FFFFFF</forecolor>
+        <caret>#FFFFFF</caret>
+        <fontsize>10</fontsize>
+        <linenumberbg>#1F2227</linenumberbg>
+        <linenumberfg>#4B4D51</linenumberfg>
+        <selectionbg>#49483E</selectionbg>
+        <selectionfg>#FFFFFF</selectionfg>
+    </editor>
+    <code>
+        <comment>#4E6A87</comment>
+        <commentline>#4E6A87</commentline>
+        <commentdoc>#4E6A87</commentdoc>
+        <number>#ED6E55</number>
+        <character>#F5EEA2</character>
+        <string>#F5EEA2</string>
+        <!-- DDL#32a8ff -->
+        <word>#62E87B</word>
+        <!-- DML -->
+        <word2>#62E87B</word2>
+        <!-- FUNCTIONS -->
+        <user1>#7561FF</user1>
+        <!-- KEYWORDS -->
+        <user2>#F8B068</user2>
+        <!-- SQL OPERATORS -->
+        <user3>#FF4F68</user3>
+        <!-- MATH OPERATORS -->
+        <operator>#FFFFFF</operator>
+		<!-- DATA TYPES -->
+		<types>#F88D41</types>
+    </code>
+	<console>
+		<background>#2a2a2c</background>
+		<foreground>#FFFFFF</foreground>
+		<info>#86AE60</info>
+		<warn>#FED688</warn>
+		<warntext>#FFB63B</warntext>
+		<err>#D65F5E</err>
+		<action>#8687AE</action>
+	    <actiontext>#C6E7F9</actiontext>
+	</console>
+</theme>

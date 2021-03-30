@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- COLOR VALUES SHOULD BE HEX -->
+<theme>
+    	<desc>
+" It's up to you! You're the programmer! " -- serBert ur da best :)
+
+-crafted by kuya RR :)
+	</desc>
+    <editor>
+        <background>#002240</background>
+        <forecolor>#FFFFFF</forecolor>
+        <caret>#FFFFFF</caret>
+        <fontsize>10</fontsize>
+        <linenumberbg>#002240</linenumberbg>
+        <linenumberfg>#4B4D51</linenumberfg>
+        <selectionbg>#49483E</selectionbg>
+        <selectionfg>#FFFFFF</selectionfg>
+    </editor>
+    <code>
+        <comment>#DD0000</comment>
+        <commentline>#DD0000</commentline>
+        <commentdoc>#00E200</commentdoc>
+        <number>#FFFFFF</number>
+        <character>#00E200</character>
+        <string>#00E200</string>
+        <!-- DDL#32a8ff -->
+        <word>#FF8000</word>
+        <!-- DML -->
+        <word2>#FF8000</word2>
+        <!-- FUNCTIONS -->
+        <user1>#FF0E86</user1>
+        <!-- KEYWORDS -->
+        <user2>#5E5EFF</user2>
+        <!-- SQL OPERATORS -->
+        <user3>#FF8000</user3>
+        <!-- MATH OPERATORS -->
+        <operator>#FFFFFF</operator>
+		<!-- DATA TYPES -->
+		<types>#FF0E86</types>
+    </code>
+	<console>
+		<background>#2a2a2c</background>
+		<foreground>#FFFFFF</foreground>
+		<info>#86AE60</info>
+		<warn>#FED688</warn>
+		<warntext>#FFB63B</warntext>
+		<err>#D65F5E</err>
+		<action>#8687AE</action>
+	    <actiontext>#C6E7F9</actiontext>
+	</console>
+</theme>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<desc>
+* Inspired by Lexi Lore :)
+* This colour theme does not encourage sexual activity ;) 
+	
+Note : COLOR VALUES SHOULD BE HEX (Yes, you read it 'H E X' not S__X  you dirty mind!)
+
+-crafted by kuya RR :)
+	</desc>
+	<editor>
+		<background>#1B1B1B</background>
+		<forecolor>#FFFFFF</forecolor>
+		<caret>#FFFFFF</caret>
+		<fontsize>10</fontsize>
+		<linenumberbg>#1B1B1B</linenumberbg>
+		<linenumberfg>#808080</linenumberfg>
+		<selectionbg>#292929</selectionbg>
+		<selectionfg>#FFFFFF</selectionfg>
+	</editor>
+	<code>
+		<comment>#636766</comment>
+		<commentline>#636766</commentline>
+		<commentdoc>#636766</commentdoc>
+		<number>#FFC166</number>
+		<character>#FFC166</character>
+		<string>#FFC166</string>
+		<!-- DDL#32a8ff -->
+		<word>#FFA31A</word>
+		<!-- DML -->
+		<word2>#FFA31A</word2>
+		<!-- FUNCTIONS -->
+		<user1>#FFBD36</user1>
+		<!-- KEYWORDS -->
+		<user2>#FF9726</user2>
+		<!-- SQL OPERATORS -->
+		<user3>#FFA31A</user3>
+		<!-- MATH OPERATORS -->
+		<operator>#AEADAB</operator>
+		<!-- DATA TYPES -->
+		<types>#FFBD36</types>
+	</code>
+	<console>
+		<background>#2a2a2c</background>
+		<foreground>#FFFFFF</foreground>
+		<info>#86AE60</info>
+		<warn>#FED688</warn>
+		<warntext>#FFB63B</warntext>
+		<err>#D65F5E</err>
+		<action>#8687AE</action>
+		<actiontext>#C6E7F9</actiontext>
+	</console>
+</theme>

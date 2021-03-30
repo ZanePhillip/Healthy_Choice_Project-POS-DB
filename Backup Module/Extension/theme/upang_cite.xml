@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- COLOR VALUES SHOULD BE HEX -->
+<theme>
+	<desc>
+Phinma-UPang CITE # 1 
+
+-crafted by kuya RR :)
+	</desc>
+	<editor>
+		<background>#181614</background>
+		<forecolor>#FFFFFF</forecolor>
+		<caret>#FFFFFF</caret>
+		<fontsize>10</fontsize>
+		<linenumberbg>#181614</linenumberbg>
+		<linenumberfg>#164A59</linenumberfg>
+		<selectionbg>#277300</selectionbg>
+		<selectionfg>#FFFFFF</selectionfg>
+	</editor>
+	<code>
+		<comment>#283D3B</comment>
+		<commentline>#283D3B</commentline>
+		<commentdoc>#283D3B</commentdoc>
+		<number>#2C817C</number>
+		<character>#C69F06</character>
+		<string>#C69F06</string>
+		<!-- DDL#32a8ff -->
+		<word>#3CA114</word>
+		<!-- DML -->
+		<word2>#3CA114</word2>
+		<!-- FUNCTIONS -->
+		<user1>#A89007</user1>
+		<!-- KEYWORDS -->
+		<user2>#46A500</user2>
+		<!-- SQL OPERATORS -->
+		<user3>#2C817C</user3>
+		<!-- MATH OPERATORS -->
+		<operator>#283D3B</operator>
+		<!-- DATA TYPES -->
+		<types>#277300</types>
+	</code>
+	<console>
+		<background>#2a2a2c</background>
+		<foreground>#FFFFFF</foreground>
+		<info>#86AE60</info>
+		<warn>#FED688</warn>
+		<warntext>#FFB63B</warntext>
+		<err>#D65F5E</err>
+		<action>#8687AE</action>
+		<actiontext>#C6E7F9</actiontext>
+	</console>
+</theme>
