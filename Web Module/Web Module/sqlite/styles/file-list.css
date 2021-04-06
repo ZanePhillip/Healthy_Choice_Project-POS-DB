@@ -1,0 +1,87 @@
+#file-icon
+{
+    width: 50px;
+    text-align: center;
+}
+#file-list-wrapper
+{
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#file-card 
+{
+    border-radius: 3px;
+    padding: 16px;
+    display: flex;
+    margin-top: 20px;
+    background: #0D0E11;
+}
+
+#file-info
+{
+    width: 80%;
+    border-left: 1px solid #15161E;
+    padding: 2px 10px 2px 20px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+#file_name, #file-desc 
+{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#file_name 
+{
+    font-size: 1.4vw;
+}
+#file-desc 
+{
+    margin-top: 4px;
+    font-size: 1.2vw;
+    color: #aaa;
+}
+
+#file-action-buttons
+{
+    
+    font-size: 1.2vw;
+    margin-top: 18px;
+    display: flex;
+}
+
+.file-actions
+{
+    margin-right: 10px;
+    border: none;
+    width: 9vw;
+    font-size: 1.2vw;
+    padding: 6px 10px;
+    border-radius: .2em;
+    background-color: #444;
+    color: white;
+    transition: 0.3s;
+}
+
+.file-actions:hover
+{
+    background-color: white;
+    color: #0D0E11;
+    font-weight: bold;
+}
+.file-actions:active { background-color: #AAA;}
+
+#zip-header {color: #FF8D38;}
+#rar-header {color: #EC2354;}
+#sqlite-header 
+{
+    /* font-size: 14px; */
+    color: #16BF59;
+}
+#sql-header {color: #6530DD;}
+#z-header {color: #345CFF;}
+#csv-header {color: white;}
